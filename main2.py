@@ -1,7 +1,7 @@
 from functions import *
 
 
-def Menu(first_time):
+def menu(first_time):
 
     if first_time:
         print("1 - Load projects for first time.")
@@ -21,15 +21,15 @@ def Menu(first_time):
 def main():
     gProject = list()
 
-    # Para verificar que cargaron datos
+    # To verify that they loaded data
     first_time = True
-    # Porque la opcion 7 depende de la opcion 5, recicla una lista que se crea en opcion 5.
-    Independencia_de_op5 = False
+    # Because option 7 depends on option 5, it recycles a list that is created in option 5.
+    independence_op5 = False
 
     op = -1
     while op != 0:
 
-        op = Menu(first_time)
+        op = menu(first_time)
         if first_time:
             if op == 1:
                 n = int(input("Number of projects to load: "))
@@ -46,9 +46,9 @@ def main():
             if op == 1:
                 n = int(input("Number of projects to add: "))
                 cargar_proyectos(n, gProject)
-                # Se apaga la bandera en este caso porque se agregarian mas proyectos, debera pasar de nuevo
-                # por la op 5 si desea usar la op 7
-                Independencia_de_op5 = False
+                # The flag is turned off in this case because more projects would be added, you will have to go through op 5 again 
+                # if you want to use op 7
+                independence_op5 = False
 
             elif op == 2:
                 sort_for_title_op2(gProject)
@@ -66,16 +66,15 @@ def main():
             elif op == 5:
                 cont_op5 = counters_op5(gProject)
                 show_op5(cont_op5)
-                Independencia_de_op5 = True
+                independence_op5 = True
 
             elif op == 6:
                 ln = input("Enter language to search for (name or number): ")
                 sort_for_num_op6(gProject)
-
                 filter_for_language_and_show(gProject, ln)
 
             elif op == 7:
-                if Independencia_de_op5:
+                if independence_op5:
                     may_op7 = calcular_may_op7(cont_op5)
                     show_op7(may_op7)
                 else:
