@@ -7,11 +7,11 @@ Project Statement:
 A software development company in our city has commissioned us to develop a system for managing Software Projects. For each project, the following information
 is known:
 
-Project number
-Title
-Update date in dd-mm-yyyy format, validating that the year is between 2000 and 2022
-Language (with 0:Python, 1:Java, 2:C++, 3:Javascript, 4:Shell, 5:HTML, 6:Ruby, 7:Swift, 8:C#, 9:VB, 10:Go)
-Number of lines of code
+* Project number
+* Title
+* Update date in dd-mm-yyyy format, validating that the year is between 2000 and 2022
+* Language (with 0:Python, 1:Java, 2:C++, 3:Javascript, 4:Shell, 5:HTML, 6:Ruby, 7:Swift, 8:C#, 9:VB, 10:Go)
+* Number of lines of code
 
 We are asked to develop a program in two modules: one of them must contain the definition of the class of the record and the basic functions that allow to
 handle a record, and the other must contain the main program, which must be controlled by a menu of options to allow the following:
@@ -43,11 +43,11 @@ if there is more than one with that amount.
 Enunciado del Proyecto:
 Una empresa de desarrollo de software de nuestra ciudad nos encarga un sistema para la gestión de Proyectos de Software. De cada proyecto se conoce:
 
-Número de proyecto
-Título
-Fecha de actualización con el formato dd-mm-yyyy validando que el año esté entre 2000 y 2022
-Lenguaje (siendo 0:Python, 1:Java, 2:C++, 3:Javascript, 4:Shell, 5:HTML, 6:Ruby, 7:Swift, 8: C#, 9:VB, 10:Go)
-Cantidad de líneas de código
+* Número de proyecto
+* Título
+* Fecha de actualización con el formato dd-mm-yyyy validando que el año esté entre 2000 y 2022
+* Lenguaje (siendo 0:Python, 1:Java, 2:C++, 3:Javascript, 4:Shell, 5:HTML, 6:Ruby, 7:Swift, 8: C#, 9:VB, 10:Go)
+* Cantidad de líneas de código
 
 Se pide desarrollar un programa en dos módulos: uno de ellos debe contener la definición de la clase del regisstro y las funciones básicas que permitan 
 manejar un registro, y el otro debe contener el programa principal, que debe estar controlado por un menú de opciones para permitir hacer lo siguiente:
