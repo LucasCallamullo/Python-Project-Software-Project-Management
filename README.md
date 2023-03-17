@@ -17,10 +17,10 @@ In the following project, we can find the use of:
 * Mathematical logic applied to solve some functions.
 
 About the files:
-"functios.py": contains the used functions that are called from main2.
-"main2.py": contains the main file with the menu of options, menu.
-"class_project.py": contains the main object that we created for the project solution.
-complete_instructions.md: contains the complete and detailed statement of the project.
+* "functios.py": contains the used functions that are called from main2.
+* "main2.py": contains the main file with the menu of options, menu.
+* "class_project.py": contains the main object that we created for the project solution.
+* "complete_instructions.md: contains the complete and detailed statement of the project.
 
 
 ## [ES]
@@ -39,7 +39,7 @@ En el siguiente proyecto podremos encontrar el uso de:
 * Logica matematica aplicada para la resolucion de algunas funciones.
 
 Sobre los Archivos:
-"functios.py": contiene las funciones utilizadas que son llamadas desde main2.
-"main2.py": contiene el archivo principal con el menu de opciones, menu.
-"class_project.py": contiene al objeto principal que creamos para la solucion de proyecto.
-"complete_instructions.md: contiene el enunciado completo y detallado del proyecto.
+* "functios.py": contiene las funciones utilizadas que son llamadas desde main2.
+* "main2.py": contiene el archivo principal con el menu de opciones, menu.
+* "class_project.py": contiene al objeto principal que creamos para la solucion de proyecto.
+* "complete_instructions.md: contiene el enunciado completo y detallado del proyecto.
