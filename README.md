@@ -2,7 +2,7 @@
 A Project in Python
 
 
-[EN]
+## [EN]
 Project Statement:
 A software development company in our city has commissioned us to develop a system for managing Software Projects. For each project, the following information
 is known:
@@ -39,7 +39,7 @@ if there is more than one with that amount.
 
 ============================================================================================================================================================
 
-[ES]
+## [ES]
 Enunciado del Proyecto:
 Una empresa de desarrollo de software de nuestra ciudad nos encarga un sistema para la gestión de Proyectos de Software. De cada proyecto se conoce:
 
